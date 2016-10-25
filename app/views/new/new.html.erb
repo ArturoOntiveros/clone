@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" style="background-color:#1C1C1C">
+<html lang="en">
   <head>
     <meta charset="UTF-8"/>
     <title>AcetatosMX - Tienda en línea para los mejores acetatos</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"/>
     <link rel="stylesheet" href="https://file.myfontastic.com/2mkBAz4kVSMEZcWv2q3x2K/icons.css"/>
-    <%= stylesheet_link_tag "style" %>
+    <%= stylesheet_link_tag "style" %>    
 <!--     <link rel="stylesheet" href="css/style.css"/> -->
   </head>
   <body>
@@ -28,22 +28,24 @@
         <li><a href="">Contacto</a></li>
       </ul>
     </nav>
-    <div class="inicio">
-      <div class="inicio__musica">
-        <div class="wrapper">
-          <h1>Música</h1>
-          <p>Encuentra la mejor música del momento</p><a href="<%= artistas_prueba_path %>" class="button">Ver Categorías</a>
-        </div>
-      </div>
-      <div class="inicio__artista">
-        <div class="wrapper">
-          <h1>Cultura Acetato</h1>
-          <p>Entérate de la historia de tu grupo favorito!!!</p><a href="<%= new_new_path %>" class="button">Ver Noticias</a>
-        </div>
-      </div>
-    </div>
-    <div class="inicio__info"></div>
-    <div class="wrapper">
+
+
+  	<div class="object one">
+      <h1>Cronología de nuestra música</h1>
+  	</div>
+  	<div class="object two">
+  		<h1>Historia de tu grupo favorito</h1>
+  	</div>
+  	<div class="object three">
+  		<h1>Lo nuevo en AcetatosMX</h1>
+  	</div>
+  	<div class="object four">
+  		<h1>Preguntas frecuentes</h1>
+  	</div>
+
+
+
+	<div class="wrapper">
       <footer>
         <section id="acerca-de">
           <article>
@@ -61,7 +63,6 @@
 
       </footer>
     </div>
-<!--     <script src="js/jquery.js"></script> -->
     <script src="/assets/menu.js"></script>
   </body>
-</html>
+  </html>

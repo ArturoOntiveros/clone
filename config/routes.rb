@@ -1,7 +1,14 @@
 Rails.application.routes.draw do
+
   get 'artistas/prueba'
 
-  get 'index/landingpage'
+  get 'artistas/ver/:id' => 'artistas#ver'
+
+  root 'index#landingpage'
+
+  get 'profile/profile'
+
+  get 'new/new'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

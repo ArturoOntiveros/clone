@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html lang="en" style="background-color:#1C1C1C">
+<html lang="en">
   <head>
     <meta charset="UTF-8"/>
     <title>AcetatosMX - Tienda en línea para los mejores acetatos</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"/>
     <link rel="stylesheet" href="https://file.myfontastic.com/2mkBAz4kVSMEZcWv2q3x2K/icons.css"/>
-    <%= stylesheet_link_tag "style" %>
+    <%= stylesheet_link_tag "style" %>    
 <!--     <link rel="stylesheet" href="css/style.css"/> -->
   </head>
   <body>
     <header class="header">
       <div class="wrapper header__flex">
         <figure class="header__logo"><img class="img-responsive" src="/assets/logo.jpeg" alt=""/></figure>
-        <figure class="header__perfil"><img src="/assets/perfil.jpg" alt=""/>
-        </figure><a href="#" class="button">Login</a>
+        <figure class="header__perfil"><img src="/assets/perfil.jpg" alt=""/></figure><a href="#" class="button">Login</a>
         </figure><a href="#" class="button">SignUp</a>
         <div class="header__nav icon-menu"></div>
       </div>
@@ -23,26 +22,23 @@
         <li><a href="<%= root_path %>">Inicio</a></li>
         <li><a href="<%= profile_profile_path %>">Mi Perfil</a></li>
         <li><a href="<%= new_new_path %>">Cultura Acetato</a></li>
-        <li><a href="<%= artistas_prueba_path %>">Categorías</a></li>
+        <li><a href="<%= artistas_prueba_path %>">Artistas</a></li>
         <li><a href="">Conócenos</a></li>
         <li><a href="">Contacto</a></li>
       </ul>
     </nav>
-    <div class="inicio">
-      <div class="inicio__musica">
-        <div class="wrapper">
-          <h1>Música</h1>
-          <p>Encuentra la mejor música del momento</p><a href="<%= artistas_prueba_path %>" class="button">Ver Categorías</a>
-        </div>
-      </div>
-      <div class="inicio__artista">
-        <div class="wrapper">
-          <h1>Cultura Acetato</h1>
-          <p>Entérate de la historia de tu grupo favorito!!!</p><a href="<%= new_new_path %>" class="button">Ver Noticias</a>
-        </div>
-      </div>
-    </div>
-    <div class="inicio__info"></div>
+
+
+<div class="photocontainer">
+  <section>
+    
+  </section>
+</div>
+
+
+
+
+
     <div class="wrapper">
       <footer>
         <section id="acerca-de">
@@ -52,7 +48,9 @@
           </article>
         </section>
 
+
         <section id="redes-s">
+<!--         <audio src="micancion.mp3" controls>audio</audio> -->
           <div class="email"><a href="#"></a></div>
           <div class="twitter"><a href="#"></a></div>
           <div class="youtube"><a href="#"></a></div>
