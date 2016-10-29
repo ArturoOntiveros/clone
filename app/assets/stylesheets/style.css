@@ -142,8 +142,10 @@ footer #redes-s > div:hover{
 }
 
 .fondo{
-  background-color: black;
+  background-image:url('fondo.jpg');
   padding: 130px;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 
@@ -326,8 +328,6 @@ html,body{
   background-image:url('/assets/4.jpg') ; 
 }
 
-
-
 .top h3 {
   margin: 0;
   font-size: 2rem;
@@ -404,19 +404,19 @@ html,body{
 }
 
 @media only screen and (max-width: 991vw){
-  .artista {
+  .artistasss {
     width: 31%
   }
 }
 
 @media only screen and (max-width: 665vw){
-  .artista {
+  .artistasss {
     width: 50%
   }
 }
 
 @media only screen and (max-width: 448vw){
-  .artista {
+  .artistasss {
     width: 100%
   }
 }

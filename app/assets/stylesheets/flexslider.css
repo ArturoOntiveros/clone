@@ -83,6 +83,10 @@
   transition: all 0.3s ease-in-out;
 }
 
+.image{
+	border-radius: 15px;
+}
+
 .flex-direction-nav .flex-prev{
 	left: 0;
 }
@@ -130,4 +134,22 @@
 
 .flexslider:hover .flex-direction-nav .flex-next:hover{
 	opacity: 1;
+}
+
+
+.align{
+	display: flex !important;
+	flex-direction: column;
+}
+
+.recom{
+	text-align: center;
+	color: white;
+	font-style: italic;
+}
+
+.disco{
+	text-align: center;
+	color: white;
+	font-style: italic;
 }
