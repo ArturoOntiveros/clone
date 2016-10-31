@@ -1,4 +1,7 @@
 class IndexController < ApplicationController
-  def landingpage
-  end
+
+	def landingpage
+
+	end
+
 end

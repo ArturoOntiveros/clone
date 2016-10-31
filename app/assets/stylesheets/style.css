@@ -164,6 +164,7 @@ footer #redes-s > div:hover{
 
 .five{
   background-image:url('/assets/5.jpg'); 
+  position: inherit;
 }
 
 .body__titulo {
@@ -171,6 +172,7 @@ footer #redes-s > div:hover{
   margin: 1.8rem 0;
   text-align: center;
   color: #FFFAF0;
+  margin-top: 40px;
 }
 
 .body__titulo2 {
@@ -191,7 +193,7 @@ footer #redes-s > div:hover{
 }
 
 .top-space {
-  margin-top: 8rem;
+  margin-top: 1rem;
 }
 
 .button {
@@ -402,6 +404,35 @@ html,body{
   margin: 4rem;
   font-size: 3rem;
 }
+
+/*
+Profile
+*/
+
+.bodyp{
+  background-image:url('profile.jpg');
+  padding: 100px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.imagp{
+  display: block;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+
+.un{
+  text-align: center;
+  color: white;
+}
+
 
 @media only screen and (max-width: 991vw){
   .artistasss {

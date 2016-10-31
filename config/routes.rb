@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
 
+
+  resources :posts
+  devise_for :users, controllers: { registrations: "registrations" }
   get 'artistas/prueba'
 
   get 'artistas/ver/:id' => 'artistas#ver'
@@ -9,6 +12,8 @@ Rails.application.routes.draw do
   get 'profile/profile'
 
   get 'new/new'
+
+  get 'indnew/indnew'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
